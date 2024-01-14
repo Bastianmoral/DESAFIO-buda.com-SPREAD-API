@@ -1,0 +1,38 @@
+Tarea-1/
+│
+├── src/
+│   ├── api/
+│   │   ├── controllers/
+│   │   │   ├── spreadController.js
+│   │   │   └── alertController.js
+│   │   │
+│   │   ├── routes/
+│   │   │   ├── spreadRoutes.js
+│   │   │   └── alertRoutes.js
+│   │   │
+│   │   └── services/
+│   │       ├── budaService.js
+│   │       └── spreadService.js
+│   │
+│   ├── config/
+│   │   └── index.js
+│   │
+│   ├── models/
+│   │   └── alertModel.js
+│   │
+│   ├── utils/
+│   │   └── errorHandler.js
+│   │
+│   └── app.js
+│
+├── tests/
+│   ├── spreadController.test.js
+│   ├── alertController.test.js
+│   └── spreadService.test.js
+│
+├── Dockerfile
+├── .dockerignore
+├── .gitignore
+├── package.json
+├── README.md
+└── server.js
