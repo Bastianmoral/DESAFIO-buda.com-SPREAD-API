@@ -43,11 +43,7 @@ El proyecto está estructurado de la siguiente manera:
 
 ## Autores
 
-- **Tu Nombre** - *Desarrollo inicial* - [TuUsuarioDeGitHub](https://github.com/TuUsuarioDeGitHub)
-
-## Licencia
-
-Este proyecto está bajo la Licencia XYZ - ver el archivo LICENSE.md para más detalles.
+- **Bastián Moral** - *Desarrollo inicial* - [bastianmoral](https://github.com/Bastianmoral)
 
 ## Agradecimientos
 

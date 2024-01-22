@@ -1,13 +1,12 @@
 const express = require("express");
 const app = express();
+const spreadRoutes = require("./routes/spreadRoutes");
 
 // Middlewares
-// Aquí puedes añadir middlewares globales si los necesitas, por ejemplo:
-// app.use(express.json()); // Para parsear bodies tipo JSON
+app.use(express.json());
 
 // Rutas
-// Aquí configurarás las rutas. Por ejemplo:
-// const miRuta = require('./routes/miRuta');
+app.use("/api/services", spreadRoutes);
 // app.use('/mi-ruta', miRuta);
 
 // Manejo de errores 404 (No encontrado)
